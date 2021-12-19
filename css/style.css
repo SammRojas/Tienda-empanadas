@@ -121,3 +121,36 @@ section h1 {
   background-color: white;
   width: 70%;
 }
+.container_footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+  }
+  .container_footer .map{
+      padding: 80px;
+  }
+  .container_footer div{
+      padding-top: 130px;
+      padding-left: 200px;
+      font-size: 20px;
+  }
+  .container_footer div i{
+      text-align: justify;
+  }
+  #input_email{
+      padding: 8px;
+      padding-right: 20px;
+  }
+  @media  (max-width:768px){
+    .container_footer{
+        width: 90%;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+    .container_footer div{
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+  
